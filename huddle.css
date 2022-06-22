@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300;400&display=swap');
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
 
 .header img{
     margin-top:  30px;
@@ -5,7 +17,6 @@
     width: 200px;
     height: 40px;
 }
-
 
 .mockup img{
     height: 400px;
@@ -21,30 +32,37 @@
     margin-top: 70px;
     margin-left: 80px;
     width: 700px;
-
 }
 
 .grow-together img{
     height: 200px;
     width: 200px;
+    padding-left: 140px;
 }
 
 .flowing-conversation img{
     height: 200px;
     width: 200px;
+    padding-right: 140px;
 }
 
 .your-users img{
     height: 200px;
     width: 200px;
+    padding-left: 140px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .header{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
 }
+
 .row1{
     display: flex;
     flex-direction: row;
@@ -52,44 +70,17 @@
     height: 450px;
 }
 
-.row2{
+.content{
     display: flex;
-    flex-direction: row;
-    border: solid black;
+    flex-direction: row; 
     width: 80%;
     height: 600px;
-    margin-left: 120px;
+    margin: auto;
     margin-top: 90px;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    border: 1mm solid;
-}
-
-.row3{
-    display: flex;
-    flex-direction: row;
-    border: solid black;
-    width: 80%;
-    height: 600px;
-    margin-left: 120px;
-    margin-top: 25px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-
-.row4{
-    display: flex;
-    flex-direction: row;
-    border: solid black;
-    width: 80%;
-    height: 600px;
-    margin-left: 120px;
-    margin-top: 25px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px #888888;
 }
 
 .header button{
@@ -102,12 +93,136 @@
 
 .row1 button{
     width: 200px;
-    border-radius: 20px;
+    border-radius: 19px;
     height: 40px;
     color: white;
-    background-color: rgb(179, 39, 62);
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+
+.sign-up button{
+    width: 200px;
+    border-radius: 19px;
+    height: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
 }
 
 p{
     font-size: 22px;
+}
+
+.sign-up{
+    box-shadow: 0px 0px 3px 3px #888888;
+    background-color: white;
+    width: 670px;
+    margin: auto;  
+    height: 270px;
+    margin-top: 120px;
+    margin-bottom: -50px;
+    position: relative;
+    border-radius: 10px;
+    color: hsl(208, 11%, 55%);
+}
+
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+
+.foot1{
+    width: 520px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+}
+
+.foot1 .logo{
+    margin-left: 40px;
+    width: 150px;
+    height: 50px;    
+}
+
+.phone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.location{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 30px;
+}
+.email{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 2px;
+}
+ 
+.location img{
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 25px;
+    height: 22px
+}
+
+.phone img{
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 24px;
+    height: 22px
+}
+
+.email img{
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 22px;
+    height: 22px
+}
+
+.foot2{
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 70px;
+    line-height: 35px;
+}
+
+.foot3{
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 90px;
+    line-height: 35px;
+}
+
+.social{
+    height: 200px;
+    margin-top: 170px;
+    margin-left: 120px;
+    line-height: 35px;
+}
+
+.fa {
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border:solid white;
+    color: white;
 }
