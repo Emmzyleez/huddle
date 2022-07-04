@@ -1,132 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100 &family=Lexend+Deca:wght@100&family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300;400&display=swap');
 
-h2{
+h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
 }
 
-p{
+p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
 }
 
-.header img{
-    margin-top:  30px;
-    margin-left: 50px;
-    width: 200px;
-    height: 40px;
-}
-
-.mockup img{
-    height: 400px;
-    width: 500px;
-    margin-left: 10px;
-}
-
-.top{
-    background-image: url(bg-hero-desktop.svg);
-}
-
-.build{
-    margin-top: 70px;
-    margin-left: 80px;
-    width: 700px;
-}
-
-.grow-together img{
-    height: 200px;
-    width: 200px;
-    padding-left: 140px;
-}
-
-.flowing-conversation img{
-    height: 200px;
-    width: 200px;
-    padding-right: 140px;
-}
-
-.your-users img{
-    height: 200px;
-    width: 200px;
-    padding-left: 140px;
-}
-
-.main{
+.main {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.header{
+.top {
+    background-image: url('bg-hero-desktop.svg');
+}
+
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.row1{
+.header img {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+}
+
+.header button {
+    margin-left: 900px;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 3px 3px #888888;
+}
+
+.row1 {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     height: 450px;
 }
 
-.content{
+.row1 button {
+    width: 200px;
+    border-radius: 19px;
+    height: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+
+.build {
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 700px;
+}
+
+.mockup img {
+    height: 400px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.content {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     width: 80%;
     height: 600px;
-    margin: auto;
-    margin-top: 90px;
+    margin: 90px auto auto;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 3px #888888;
+    box-shadow: 0 0 3px 3px #888888;
 }
 
-.header button{
-    margin-left: 900px;
-    margin-top:  30px;
-    border-radius: 30px;
-    width: 150px;
-    height: 40px;
-}
-
-.row1 button{
+.grow-together img {
+    height: 200px;
     width: 200px;
-    border-radius: 19px;
-    height: 40px;
-    color: white;
-    background-color: hsl(322, 100%, 66%);
-    border: none;
+    padding-left: 140px;
 }
 
-.sign-up button{
+.flowing-conversation img {
+    height: 200px;
     width: 200px;
-    border-radius: 19px;
-    height: 40px;
-    color: white;
-    background-color: hsl(322, 100%, 66%);
-    border: none;
+    padding-right: 140px;
 }
 
-p{
-    font-size: 22px;
+.your-users img {
+    height: 200px;
+    width: 200px;
+    padding-left: 140px;
 }
 
-.sign-up{
-    box-shadow: 0px 0px 3px 3px #888888;
+.sign-up {
+    box-shadow: 0 0 3px 3px #888888;
     background-color: white;
     width: 670px;
-    margin: auto;  
+    margin: 120px auto -50px;
     height: 270px;
-    margin-top: 120px;
-    margin-bottom: -50px;
+    text-align: center;
     position: relative;
     border-radius: 10px;
-    color: hsl(208, 11%, 55%);
 }
 
-.footer{
+.sign-up button {
+    width: 200px;
+    border-radius: 19px;
+    height: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    margin-top: 20px;
+}
+
+.sign-up h2 {
+    margin-top: 60px;
+}
+
+.footer {
     background-color: hsl(192, 100%, 9%);
     color: white;
     height: 450px;
@@ -136,21 +137,22 @@ p{
     z-index: -1;
 }
 
-.foot1{
+.foot1 {
     width: 520px;
     margin-top: 80px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-left: 20px;
 }
 
-.foot1 .logo{
+.foot1 .logo {
     margin-left: 40px;
     width: 150px;
-    height: 50px;    
+    height: 50px;
 }
 
-.phone{
+
+.location {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -158,60 +160,61 @@ p{
     margin-top: 30px;
 }
 
-.location{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    margin-top: 30px;
-}
-.email{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    margin-top: 2px;
-}
- 
-.location img{
+.location img {
     margin-left: 50px;
     margin-right: 40px;
     margin-top: 25px;
     height: 22px
 }
 
-.phone img{
+.phone {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.phone img {
     margin-left: 50px;
     margin-right: 40px;
     margin-top: 24px;
     height: 22px
 }
 
-.email img{
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 2px;
+}
+
+.email img {
     margin-left: 50px;
     margin-right: 40px;
     margin-top: 22px;
     height: 22px
 }
 
-.foot2{
+.foot2 {
     height: 200px;
     margin-top: 150px;
     margin-left: 70px;
     line-height: 35px;
 }
 
-.foot3{
+.foot3 {
     height: 200px;
     margin-top: 150px;
     margin-left: 90px;
     line-height: 35px;
 }
 
-.social{
+.foot4 {
     height: 200px;
     margin-top: 170px;
-    margin-left: 120px;
+    margin-left: 100px;
     line-height: 35px;
 }
 
@@ -223,6 +226,11 @@ p{
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    border:solid white;
+    border: solid white;
     color: white;
+}
+
+.copyright p {
+    font-size: 14px;
+    margin-top: 180px;
 }
